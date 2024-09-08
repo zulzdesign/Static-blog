@@ -62,7 +62,7 @@ a:link {
 }
 
 .images {
-    width: 50vw;
+    width: 75vw;
     height: auto;
 
 }
@@ -71,6 +71,6 @@ a:link {
     position: absolute;
     left: 50vw;
     transform: translateX(-50%);
-    width: 48vw;
+    width: 74vw;
     /* adjust the width as needed */
 }
