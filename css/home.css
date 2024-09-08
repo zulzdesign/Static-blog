@@ -1,0 +1,119 @@
+
+a:link {
+    text-decoration: none;
+}
+
+.Navigation-Pill-List {
+    height: 50px;
+    padding: 25px 25px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 25px;
+}
+.Navigation-Pill-List :hover {
+    color: orangered;
+}
+
+.Navigation-Pill {
+    height: 10px;
+    width: 35px;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    border-radius: 8px;
+    background-color: #ededed;
+}
+.Navigation-Pill :hover{
+    color: #1e1e1e;
+}
+
+
+.headfont {
+    width: 50px;
+    height: 10px;
+    flex-grow: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: left;
+    color: #1e1e1e;
+}
+
+
+/*hero section*/
+.Hero-Text {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: center;
+    color: #1e1e1e;
+}
+
+.Hero-Description {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #1e1e1e;
+}
+
+/*background image*/
+.section {
+    margin-top: 2%;
+    padding: 1% 1%;
+    display: flex;
+    height: 50vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+    position: relative;
+    background-image: url("../img/recipe-cookies.jpg");
+    background-color: rgba(255, 255, 255, 0.689);
+    background-blend-mode: lighten;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+.button1 {
+    flex:1;
+    width: auto;
+    height: auto;
+    flex-grow: 0;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    color: hsl(0, 0%, 100%);
+    padding: 9px;
+    border-radius: 10px;
+    border: solid 1px #123524;
+    background-color: #123524;
+}
+
+/* About me */
+#aboutMe {
+    margin-top: 3%;
+    text-align: center;
+}
+
+.h2Me {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #1e1e1e;
+}
+.pMe {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #1e1e1e;
+    width: 50vw;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}

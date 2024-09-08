@@ -1,0 +1,72 @@
+
+a:link {
+    text-decoration: none;
+}
+
+.Navigation-Pill-List {
+    height: 50px;
+    padding: 25px 25px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 25px;
+}
+.Navigation-Pill-List :hover {
+    color: orangered;
+}
+
+.Navigation-Pill {
+    height: 10px;
+    width: 35px;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    border-radius: 8px;
+    background-color: #ededed;
+}
+.Navigation-Pill :hover{
+    color: #1e1e1e;
+}
+
+
+.headfont {
+    width: 50px;
+    height: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: left;
+    color: #1e1e1e;
+}
+
+/* Body */
+:root {
+    --border-line: 1px solid rgba(0, 0, 0, 0); /* control display */
+}
+
+
+.image-container {
+    border: var(--border-line);
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    border: var(--border-line);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    max-width: 25%;
+    min-width: 250px;
+}
+
+.images {
+    border-radius: 10px;
+    max-width: 100%;
+}
